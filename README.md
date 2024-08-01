@@ -28,7 +28,10 @@ Here are a few ideas to inspire your project:
    - **Image-Based Model**: Choose at least one from Custom Vision AI, DALL-E 3, SAM2, or a similar model.
    - **Text-Based Model**: Integrate either a TTS service or a chat model.
 3. **Functionality**: Your app should be interactive and provide a seamless experience combining the AI models.
-4. **GitHub Classroom**: Submit your project via the GitHub Classroom repository.
+4. **GitHub Commit and Push To Submit**
+
+## Azure Open AI Secrets and `.env` file
+👉 dont forget to create the `.env` and add the secrets for `AZURE_OPENAI_ENDPOINT` and `AZURE_OPENAI_API_KEY` from lesson2. here is the secrets in our bam summer site you can also access [ENV_SECRETSS](https://m365x06915360.sharepoint.com/:t:/s/advcoding/EUYQ2hT4ZqxLqQe2OPtOGuMBLMRqjx-lRlt3TmzP4gMKbw?e=DgzPmJ) 
 
 ## Getting Started
 
@@ -38,7 +41,7 @@ Here are a few ideas to inspire your project:
    - For text-based models, integrate TTS or chat functionalities as per the APIs.
 3. **Build Your App**: Create a user-friendly interface that allows interaction with the AI models.
 4. **Test Your App**: Ensure everything works smoothly and fix any issues.
-5. **Submit Your Work**: Push your code to GitHub Classroom and make sure to include a brief description of your app and its features.
+5. **Submit Your Work**: commit and push your repo when finished. 
 
 ## Resources
 
