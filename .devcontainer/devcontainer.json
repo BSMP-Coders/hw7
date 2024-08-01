@@ -1,0 +1,31 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/python:3.10",
+  "hostRequirements": {"cpus": 2},
+  "waitFor": "onCreateCommand",
+  "updateContentCommand": "pip install -r requirements.txt",
+  "postCreateCommand": "", //"streamlit run app.py",
+  "customizations": {
+    "codespaces": {
+      "openFiles": []
+    },
+    "vscode": {
+      "settings":{
+        "python.linting.enabled": true, // Consider removing if not needed
+        "python.linting.pylintEnabled": true,  // Removed "python.linting.pylintEnabled": true, as it's deprecated
+        "pylint.interpreter": ["/usr/local/bin/python"],
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "python.pythonPath": "/usr/local/bin/python",
+        "files.exclude": {"**/__pycache__":true}
+        //"jupyter.jupyterServerType": "local",
+        //"jupyter.defaultKernel": "Python 3.10.14"
+      },
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        //"ms-toolsai.jupyter",
+        "GitHub.copilot-chat",
+        "GitHub.copilot"
+      ]
+    }
+  }
+}

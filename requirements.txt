@@ -1,0 +1,12 @@
+matplotlib
+numpy
+pandas
+openai>=1.0.0,<2.0.0
+python-dotenv
+streamlit
+Flask==3.0.3
+requests
+#ipykernel
+#ipywidgets
+#azure-cognitiveservices-vision-customvision
+opencv-python
