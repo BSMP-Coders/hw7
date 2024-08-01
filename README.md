@@ -36,9 +36,7 @@ Here are a few ideas to inspire your project:
 ## Getting Started
 
 1. **Set Up Your Environment**: Use Codespaces or set up your local environment with the required libraries and frameworks.
-2. **Implement the Models**:
-   - For image-based models, refer to the respective APIs or SDKs.
-   - For text-based models, integrate TTS or chat functionalities as per the APIs.
+2. **Implement at least 2 Models (one image (e.g., [customvision.ai](https://learn.microsoft.com/en-us/azure/ai-services/custom-vision-service/quickstarts/image-classification?tabs=linux%2Cvisual-studio&pivots=programming-language-python)/[dalle](https://learn.microsoft.com/en-us/azure/ai-services/openai/dall-e-quickstart?tabs=dalle3%2Ccommand-line&pivots=programming-language-python)) and one text ([chat](https://learn.microsoft.com/en-us/azure/ai-services/openai/chatgpt-quickstart?tabs=command-line%2Cpython-new&pivots=programming-language-python)) /audio ([tts](https://learn.microsoft.com/en-us/azure/ai-services/openai/text-to-speech-quickstart?tabs=command-line)) based)**: Choose the AI models or services you want to integrate into your app. This can be based on our previous lessons or something new. 
 3. **Build Your App**: Create a user-friendly interface that allows interaction with the AI models.
 4. **Test Your App**: Ensure everything works smoothly and fix any issues.
 5. **Submit Your Work**: commit and push your repo when finished. 
